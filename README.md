@@ -5,13 +5,15 @@ Quick Start
 
 1) `sbt new jeffusan/diode.g8`
 
-2) `sbt "~fastOptJS::webpack"`
+2) `cd` to the new project directory
 
-3) wait for the success message (something like `[success] Total time: 24 s, completed Nov 2, 2018 2:55:48 PM`)
+3) Run `sbt "~fastOptJS::webpack"`
+    
+4) Wait for update/compilation to complete (you'll see 1. Waiting for source changes... (press enter to interrupt))
 
-4) point your browser to http://localhost:12345/
-
-Win!
+5) Navigate to http://localhost:12345
+    
+6) Press Enter in console to quit
 
 
 Template license
