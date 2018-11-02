@@ -1,6 +1,6 @@
 enablePlugins(ScalaJSPlugin, ScalaJSBundlerPlugin, WorkbenchPlugin)
 
-name := "diode app"
+name := "$name$"
 
 scalaVersion := "2.12.6"
 
@@ -19,7 +19,7 @@ libraryDependencies ++= Seq(
   "com.github.japgolly.scalajs-react" %%% "extra"          % "1.3.1",
   "io.suzaku"                         %%% "diode"          % diodeVersion,
   "io.suzaku"                         %%% "diode-devtools" % diodeVersion,
-  "io.suzaku"                         %%% "diode-react"    % s"$diodeVersion.131",
+  "io.suzaku"                         %%% "diode-react"    % "1.1.4.131",
   "io.suzaku"                         %%% "boopickle"      % "1.3.0"
 )
 
